@@ -1,0 +1,26 @@
+/*This is to style my index.html file*/
+body{
+    width: 960px;
+    background-image: url(../images/squared_metal/squared_metal.png);
+}
+
+header{
+
+}
+
+footer{
+    border-top: 5px;
+    border-top-color: #4aaaa5;
+    text-align: center;
+    background-color: #666666;
+    padding-top: 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+img{
+    float: left;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
