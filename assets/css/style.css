@@ -1,19 +1,37 @@
 /*This is to style my index.html file*/
+*{
+    /*box-sizing: border-box;*/
+}
+
 body{
     width: 960px;
     background-image: url(../images/squared_metal/squared_metal.png);
 }
 
 header{
+    background-color: aliceblue;
+    width: 960px;
+    height: 70px; 
+}
 
+.name{
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #4aaaa5;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
 }
 
 footer{
-    border-top: 5px;
+    margin-top: 15px;
+    border-top: 20px;
+    border-top: solid;
+    padding-top: 15px;
     border-top-color: #4aaaa5;
     text-align: center;
     background-color: #666666;
-    padding-top: 15px;
     color: white;
     letter-spacing: 1px;
 }
@@ -21,6 +39,24 @@ footer{
 img{
     float: left;
     margin: 10px;
-    width: 200px;
+    width: 400px;
     height: 200px;
+}
+
+.box{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.about{
+    position: relative;
+    display: inline;
+}
+
+.Portfolio{
+    position:absolute;
+}
+.Contact{
+    position: absolute;
 }
