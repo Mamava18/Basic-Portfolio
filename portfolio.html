@@ -1,0 +1,72 @@
+<!--This html code is to write a paragraph about myself-->
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<!--Metadata for program includes name of project and links to the css file(s)-->
+    <head>
+        <meta charset= "UTF-8">
+        <title>My first porfolio project About Me</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+<!--Body holds the entire content of the web page, it will be separated into three child sections: Header, Container, Footer-->
+    <body>
+
+        <!--The header is the first container or block of the web page, this will be the same for all three pages. There are two elements (boxes) inside this header wrapper, the name container and the navigation container.-->
+        <header>
+            <!--Heading 1 with class name represents the first element of the header-->
+            <h1 class="name"><strong>Alicia Martinez</strong></h1> 
+            <!--This div is for the navigation bar which is part of the header-->
+            <div class="navigation">
+                <!--This unordered list is to create the elements of the navigation bar-->
+                <ul>
+                    <li class="navigation about"><a href="index.html">About</a></li> |
+                    <li class="navigation portfolio"><a href="portfolio.html" target="_blank">Portfolio</a></li> |
+                    <li class="navigation contact"><a href="contact.html" target="_blank">Contact</a></li>
+                </ul>
+            </div>         
+        </header>
+       
+        <!--This div is the wrapper that contains the main content box, this wrapper extends to the complete height of the content section.-->
+        <div class="wrapper">
+            <!--The maincontent div is a container for the contents title, images and text-->
+            <div class="maincontent">
+                <h1><strong>Portfolio</strong></h1>
+                <hr>               
+                <div class="gallery-set">
+                    <div class="image-set">
+                        <img class="image" src="assets/images/birds.jpg" alt="Flying Birds"/>
+                        <div class="title-img">Flying Birds</div>
+                    </div>
+
+                    <div class="image-set">
+                        <img class="image" src="assets/images/ducks.jpg" alt="Ducklings"/>
+                        <div class="title-img">Ducklings</div>
+                    </div>
+                    
+                    <div class="image-set">
+                        <img class="image" src="assets/images/niagara.jpg" alt="Niagara Falls"/>
+                        <div class="title-img">Niagara Falls</div>
+                    </div>
+
+                    <div class="image-set">
+                        <img class="image" src="assets/images/skyline.jpg" alt="Skyline"/>
+                        <div class="title-img">New York Skyline</div>
+                    </div>   
+                    
+                    <div class="image-set">
+                        <img class="image" src="assets/images/maelstrom.jpg" alt="Saturn Storm"/>
+                        <div class="title-img">Saturn Storm</div>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+
+        <!--This footer is shared by all three pages and is a sticky footer, which means will remain at the bottom of the page regardless of wether the page expands or shrinks.-->
+        <footer>
+            <h6 class="copy">Copyright&copy;</h6>
+        </footer>
+
+    </body>
+</html>
