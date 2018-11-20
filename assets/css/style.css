@@ -6,6 +6,7 @@ body{
     color: #777777;
 }
 
+/*This is to style the header that belongs to all three pages*/
 header{
     background-color: #ffffff;
     height: 70px; 
@@ -40,6 +41,7 @@ a:hover{
     background-color: #20b2aa;
 }
 
+/*This is to style the contents section for all three pages*/
 .wrapper{
     background-image: url("../images/swirl_pattern/swirl_pattern.png");
     height: 100%;
@@ -64,6 +66,7 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*This is to style the footer that belongs to all three pages*/
 footer{
     position:fixed;
     left: 0px;
@@ -76,6 +79,7 @@ footer{
     color: white;
 }
 
+/*This style portion is for the contact inforamtion section in the contact page*/
 .mypic{
     float: left; 
     margin: 10px;
@@ -97,6 +101,7 @@ button{
     width: 100%;
 }
 
+/*This is the style portion for the Portfolio page only for the images*/
 .image{
     width: 200px;
     height: 150px;
